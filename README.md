@@ -17,9 +17,9 @@ This project provides a **real-time streaming API** using **FastAPI**, **Apache 
 - **Pyspark**
 
 ## 🚀 Features  
--✔️ **Publish messages** to Kafka via FastAPI
--✔️ **Consume messages** using PySpark Structured Streaming in realtime 
--✔️ **Dockerized** setup for easy deployment 
+- ✔️ **Publish messages** to Kafka via FastAPI
+- ✔️ **Consume messages** using PySpark Structured Streaming in realtime 
+- ✔️ **Dockerized** setup for easy deployment 
 
 ## 🏗️ Setup & Installation  
 
