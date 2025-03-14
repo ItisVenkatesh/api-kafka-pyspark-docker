@@ -10,7 +10,7 @@ spark = SparkSession.builder \
 # Kafka configuration
 KAFKA_BROKER = "localhost:9092"  # Your Kafka broker address
 KAFKA_TOPIC = "your-topic"  # The Kafka topic you're streaming from
-spark.setLogLevel("ERROR")
+spark.sparkContext.setLogLevel("ERROR")
 
 # Read from Kafka
 df = spark \
