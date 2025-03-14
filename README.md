@@ -17,9 +17,9 @@ This project provides a **real-time streaming API** using **FastAPI**, **Apache 
 - **Pyspark**
 
 ## 🚀 Features  
-✔️ **Publish messages** to Kafka via FastAPI
-✔️ **Consume messages** using PySpark Structured Streaming in realtime 
-✔️ **Dockerized** setup for easy deployment 
+-✔️ **Publish messages** to Kafka via FastAPI
+-✔️ **Consume messages** using PySpark Structured Streaming in realtime 
+-✔️ **Dockerized** setup for easy deployment 
 
 ## 🏗️ Setup & Installation  
 
@@ -85,8 +85,8 @@ curl -X POST "http://localhost:8000/publish" -H "Content-Type: application/json"
 View the pyspark logs to check the posted message. You can also change the code to write into an output database table or dataset.
 
 ### 🔹 8. To stop streaming
-- Press [ctrl + c] in uvicorn terminal.
-- Press [ctrl + c] in spark terminal.
+- Press [ctrl + c] in uvicorn terminal to stop uvicorn server.
+- Press [ctrl + c] in spark terminal to stop the streaming spark job.
 - To stop Docker containers,
 
 ```bash
